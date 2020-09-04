@@ -2,13 +2,8 @@
 int x;
 int main()
 {
-    for(x=-1; x<=10; x++)
- {
- if(x < 5)
-continue;
- else
-break;
- printf("Hello");
- return 0;
- }
+printf("enter no");
+scanf("%d",&x);
+printf("%d",x);
+return 0;
 }
