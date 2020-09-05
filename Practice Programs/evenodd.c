@@ -1,9 +1,9 @@
 #include <stdio.h>
- main()
+ int main()
 {
-   float x;
+   int x;
    printf("Enter the number:");
-   scanf("%f"&x);
+   scanf("%d", &x);
    if(x%2==0)
     printf("The numberis even");
    else
